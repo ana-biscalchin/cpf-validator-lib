@@ -25,12 +25,9 @@ describe("lib validator", () => {
     it("Compares the last two digits with the validator results", () => {
       expect(validator.cpfValidator("25509631058")).to.equal(true);
     });
-    
     it("Compares the last two digits with the validator results - false case", () => {
       expect(validator.cpfValidator("25509631059")).to.equal(false);
     });
-    it("Compares the last two digits with the validator results - false case", () => {
-      expect(validator.cpfValidator("11111111111")).to.equal(false);
-    });
+    
   });
 }); 
