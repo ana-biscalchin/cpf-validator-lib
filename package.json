@@ -1,7 +1,6 @@
 {
   "name": "cpf-validator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -26,7 +25,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
-  }
+  },
+  "description": ""
 }
