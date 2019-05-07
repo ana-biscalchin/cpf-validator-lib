@@ -15,7 +15,7 @@ Na versão atual é capaz de verificar se os dois últimos dígitos são válido
 
   
 
-$ npm install cpf-validator-lib
+$ npm install cpf-validator-lib-ab
 
   
 
@@ -29,13 +29,9 @@ $ npm install cpf-validator-lib
 
 ```node
 
-  
+> const  validator = require("cpf-validator-lib-ab");
 
-> const  validator = require("./lib/index");
-
-> console.log(validator("25509631058"))
-
-> // returns true
+> console.log(validator.cpfValidator("25509631058")) // returns true
 
   
 
