@@ -1,25 +1,26 @@
 {
-  "name": "cpf-validator",
+  "name": "cpf-validator-lib-ab",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "directories": {
-    "test": "test"
+    "test": "nyc mocha"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ana-biscalchin/cpf-validator.git"
+    "url": "git+https://github.com/ana-biscalchin/cpf-validator-lib.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ana-biscalchin/cpf-validator/issues"
+    "url": "https://github.com/ana-biscalchin/cpf-validator-lib/issues"
   },
-  "homepage": "https://github.com/ana-biscalchin/cpf-validator#readme",
+  "homepage": "https://github.com/ana-biscalchin/cpf-validator-lib#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
   },
@@ -29,5 +30,5 @@
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
   },
-  "description": ""
+  "description": "valida números de Cadastro de Pessoa Física (CPF)"
 }
